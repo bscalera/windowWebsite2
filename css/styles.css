@@ -1,0 +1,106 @@
+body {
+	background-color: #000;
+	height: 100%;
+	background: url(https://scontent-lga3-1.xx.fbcdn.net/hphotos-xft1/t31.0-8/12038833_1499111243736247_8219547529162515569_o.jpg) no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	opacity: 0.65;
+}
+
+/********
+** FONT *
+********/
+/*@font-face {
+    font-family: 'monster';
+    src: url('../fonts/monster_1.3-webfont.eot');
+    src: url('../fonts/monster_1.3-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/monster_1.3-webfont.woff2') format('woff2'),
+         url('../fonts/monster_1.3-webfont.woff') format('woff'),
+         url('../fonts/monster_1.3-webfont.ttf') format('truetype'),
+         url('../fonts/monster_1.3-webfont.svg#lobster_1.3regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ }*/
+
+a {
+	text-decoration: none;
+}
+
+header {
+	position: absolute;
+	height: 10%;
+	width: 100%;
+}
+
+nav {
+	background: none;
+	border: none;
+	padding: 0;
+}
+
+nav ul {
+	list-style: none;
+	float: right;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-family: 'Lobster', cursive;
+	font-weight: 800;
+	color: #cffaf1;
+	font-size: 1.2em;
+	padding: 0 10px;
+	text-shadow: 1px 2px 5px #000,
+				 -1px -2px 5px #000;
+	transition: color .5s ease 0s, font-size .5s ease 0s;
+}
+
+a:hover {
+	color: orange;
+	font-size: 1.8em;
+}
+
+p#description {
+    font-family: oswald, helvetica, sans-serif;
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    margin: 5% auto;
+    text-shadow: 1px 1px 5px #000;
+}
+
+/**********
+* BODY   **
+**********/
+
+#wrapper {
+	clear: left;
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 15% 0;
+}
+
+#main-text {
+	font-family: lobster, helvetica, sans-serif;
+	font-size: 3em;
+	color: #fff;
+	text-align: center;
+	margin: 5% auto;
+	text-shadow: 1px 1px 5px #000;
+}
+
+/**********
+* FOOTER **
+**********/
+
+footer {
+	opacity: 0.5;
+	color: white;
+	text-align: center;
+	clear: both;
+}

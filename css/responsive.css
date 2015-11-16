@@ -1,0 +1,9 @@
+creen and (max-width: 400px) {
+	#wrapper {
+		padding: 50% 0;
+	}
+
+	nav a {
+		font-size: 1em;
+	}
+}
