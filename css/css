@@ -1,8 +1,0 @@
-p#description {
-    font-family: oswald, helvetica, sans-serif;
-    font-size: 2em;
-    color: #fff;
-    text-align: center;
-    margin: 5% auto;
-    text-shadow: 1px 1px 5px #000;
-}
